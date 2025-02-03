@@ -1,4 +1,4 @@
-# ChainMindAI: AI-Powered Cryptocurrency Investment Companion for Decentralized Finance
+# ChainMindAI: AI-Powered DeFi Investment Companion (DeFAI)
 
 ## Overview 
 ChainMindAI is an innovative project leveraging Artificial Intelligence (AI) to navigate the complex landscape of cryptocurrency investments within the realm of Decentralized Finance (DeFi). By integrating AI-driven insights and automated transaction capabilities, ChainMindAI aims to revolutionize the crypto investment experience, making it more accessible, secure, and profitable for users.
