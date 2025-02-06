@@ -1,4 +1,4 @@
-import Image from "next/image";
+//import Image from "next/image";
 import WorflowImg01 from "@/public/images/workflow-01.png";
 import WorflowImg02 from "@/public/images/workflow-02.png";
 import WorflowImg03 from "@/public/images/workflow-03.png";
@@ -51,7 +51,7 @@ export default function Workflows() {
                   </svg>
                 </div>
                 {/* Image */}
-                <Image
+                <img
                   className="inline-flex"
                   src={WorflowImg01}
                   width={350}
@@ -98,7 +98,7 @@ export default function Workflows() {
                   </svg>
                 </div>
                 {/* Image */}
-                <Image
+                <img
                   className="inline-flex"
                   src={WorflowImg02}
                   width={350}
@@ -145,7 +145,7 @@ export default function Workflows() {
                   </svg>
                 </div>
                 {/* Image */}
-                <Image
+                <img
                   className="inline-flex"
                   src={WorflowImg03}
                   width={350}

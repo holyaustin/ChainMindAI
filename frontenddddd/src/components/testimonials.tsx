@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import useMasonry from "@/utils/useMasonry";
-import Image, { StaticImageData } from "next/image";
+//import Image, { StaticImageData } from "next/image";
 import TestimonialImg01 from "@/public/images/testimonial-01.jpg";
 import TestimonialImg02 from "@/public/images/testimonial-02.jpg";
 import TestimonialImg03 from "@/public/images/testimonial-03.jpg";
@@ -236,8 +236,8 @@ export function Testimonial({
   children,
 }: {
   testimonial: {
-    img: StaticImageData;
-    clientImg: StaticImageData;
+    img: string;
+    clientImg: string;
     name: string;
     company: string;
     content: string;
@@ -252,13 +252,13 @@ export function Testimonial({
     >
       <div className="flex flex-col gap-4">
         <div>
-          <Image src={testimonial.clientImg} height={36} alt="Client logo" />
+          <img src={testimonial.clientImg} height={36} alt="Client logo" />
         </div>
         <p className="text-indigo-200/65 before:content-['“'] after:content-['”']">
           {children}
         </p>
         <div className="flex items-center gap-3">
-          <Image
+          <img
             className="inline-flex shrink-0 rounded-full"
             src={testimonial.img}
             width={36}
