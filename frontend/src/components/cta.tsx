@@ -1,4 +1,4 @@
-import Image from "next/image";
+//import Image from "next/image";
 import BlurredShape from "@/public/images/blurred-shape.svg";
 
 export default function Cta() {
@@ -8,7 +8,7 @@ export default function Cta() {
         className="pointer-events-none absolute bottom-0 left-1/2 -z-10 -mb-24 ml-20 -translate-x-1/2"
         aria-hidden="true"
       >
-        <Image
+        <img
           className="max-w-none"
           src={BlurredShape}
           width={760}

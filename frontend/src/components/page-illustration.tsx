@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Illustration from "@/public/images/page-illustration.svg";
 import BlurredShapeGray from "@/public/images/blurred-shape-gray.svg";
 import BlurredShape from "@/public/images/blurred-shape.svg";
@@ -14,7 +14,7 @@ export default function PageIllustration({
         className="pointer-events-none absolute left-1/2 top-0 -z-10 -translate-x-1/4"
         aria-hidden="true"
       >
-        <Image
+        <img
           className="max-w-none"
           src={Illustration}
           width={846}
