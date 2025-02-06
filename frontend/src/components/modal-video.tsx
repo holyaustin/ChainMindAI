@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-// import type { StaticImageData } from "next/image";
+// import type { StaticImageData } from "next/image";  //thumb: StaticImageData;
 import { Dialog, DialogBackdrop, DialogPanel } from "@headlessui/react";
 //import Image from "next/image";
 import SecondaryIllustration from "@/public/images/secondary-illustration.svg";
@@ -55,12 +55,12 @@ export default function ModalVideo({
         data-aos-delay={200}
       >
         <figure className="relative overflow-hidden rounded-2xl before:absolute before:inset-0 before:-z-10 before:bg-linear-to-br before:from-gray-900 before:via-indigo-500/20 before:to-gray-900">
-          <Image
+          <img
             className="opacity-50 grayscale"
-            src={thumb}
+            src={SecondaryIllustration}
             width={thumbWidth}
             height={thumbHeight}
-            priority
+            //priority
             alt={thumbAlt}
           />
         </figure>

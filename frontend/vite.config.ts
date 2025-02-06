@@ -9,11 +9,11 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://crypto-sensei.vercel.app',
+        target: 'https://chainmindai.vercel.app',
         changeOrigin: true,
       },
       '/ws': {
-        target: 'ws://crypto-sensei.vercel.app',
+        target: 'ws://chainmindai.vercel.app',
         ws: true,
       }
     },
