@@ -40,6 +40,7 @@ export default function Footer() {
                   Integrations
                 </a>
               </li>
+              {/**
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
@@ -64,6 +65,7 @@ export default function Footer() {
                   Our method
                 </a>
               </li>
+               */}
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
@@ -91,17 +93,28 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Diversity &amp; Inclusion
+                  Blog
                 </a>
               </li>
+              {/**
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Blog
+                  Diversity &amp; Inclusion
                 </a>
               </li>
+
+                            <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  href="#0"
+                >
+                  Financial statements
+                </a>
+              </li>
+               */}
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
@@ -110,14 +123,7 @@ export default function Footer() {
                   Careers
                 </a>
               </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Financial statements
-                </a>
-              </li>
+
             </ul>
           </div>
           {/* 3rd block */}
@@ -156,6 +162,7 @@ export default function Footer() {
               Content Library
             </h3>
             <ul className="space-y-2 text-sm">
+              {/**
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
@@ -164,6 +171,15 @@ export default function Footer() {
                   Templates
                 </a>
               </li>
+                            <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  href="#0"
+                >
+                  Cookie manager
+                </a>
+              </li>
+               */}
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
@@ -188,14 +204,7 @@ export default function Footer() {
                   Learn
                 </a>
               </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Cookie manager
-                </a>
-              </li>
+
             </ul>
           </div>
           {/* 5th block */}
